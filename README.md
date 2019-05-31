@@ -4,3 +4,7 @@ Visualizing Data Structures and Algorithms with JavaScript and p5.js library.
 
 Note: The purpose here is to implement algorithms in [javascript-algorithms
 ](https://github.com/trekhleb/javascript-algorithms) repository.
+
+### Data Structures
+
+* [LinkedList](https://github.com/amirfeqhi/visual-javascript-algorithms/tree/master/linked-list)

@@ -3,13 +3,18 @@ let d;
 let t;
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(900, 600);
   background(0, 0, 0);
   l1 = new LinkedList();
 }
 
 function draw() {
-
+  noLoop();
+  stroke(255);
+  textSize(30);
+  textAlign(CENTER);
+  textStyle(BOLD);
+  text('LinkedList', 450, 40);
 }
 
 function mousePressed() {

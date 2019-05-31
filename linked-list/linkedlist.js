@@ -98,6 +98,7 @@ class LinkedList {
     stroke(255);
     circle(cx, 200, 35);
     fill(255);
+    textSize(15);
     text(data, cx, 200);
     line(cx, 200, cx+60, 200);
     cx += 60;
