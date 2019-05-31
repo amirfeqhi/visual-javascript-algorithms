@@ -1,6 +1,8 @@
 // Inspired by: js-algorithm github
 // Shubhangi Raj Agrawal medium
 
+let cx = 20;
+
 class LinkedList {
   constructor() {
     this.head = null;
@@ -24,7 +26,7 @@ class LinkedList {
       tail = tail.next;
     }
     tail.next = newNode;
-    return this.head;
+    return newNode;
   }
   findP(index) {
     let counter = 0;
@@ -91,17 +93,13 @@ class LinkedList {
   deleteList() {
     this.head = null;
   }
-  show(x, y) {
-    let p = this.head;
-    while (p.next != null) {
-      noFill();
-      stroke(255, 255, 255);
-      circle(x, y, 40);
-      fill(255, 255, 255);
-      text(p.data, x, y);
-      line(x, y, x+60, y);
-      x += 60;
-      p = p.next;
-    }
+  show(data) {
+    noFill();
+    stroke(255);
+    circle(cx, 200, 35);
+    fill(255);
+    text(data, cx, 200);
+    line(cx, 200, cx+60, 200);
+    cx += 60;
   }
 }
