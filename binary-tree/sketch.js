@@ -1,5 +1,5 @@
 // Amirfeqhi
-// Inspired by Coding Train(Daniel Shiffman)
+// Inspired by Coding Train (Daniel Shiffman)
 // https://github.com/shiffman/NOC-S17-2-Intelligence-Learning
 
 let tree;
